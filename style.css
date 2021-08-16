@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    font-family: "Baloo Da 2", cursive;
+  }
+  img {
+    width: 100%;
+  }
+  .header-area {
+    width: 100%;
+    background-color: #264653;
+  }
+  .fetured-bikes img {
+    width: 70%;
+    filter: grayscale(100%);
+  }
+  .fetured-bikes:nth-child(2) img {
+    width: 70%;
+    filter: grayscale(0);
+  }
+  .user img {
+    width: 50%;
+  }
+  .left-area img {
+    width: 80%;
+    height: 40%;
+  }
+  /*===================================
+   Two Wheeler Motorcycle section
+=====================================*/
+.custom-css{
+  border-bottom: 1px solid #ddd;
+}
+.card-custom{
+   transition: .3s;
+}
+.card-custom:hover{
+  box-shadow: 2px 2px  5px 5px rgb(214, 214, 214);
+}
+.custom-css span{
+   color: #d4581a;
+
+}
+.btn-css{
+   transition: .3s;
+}
+.btn-css a{
+   text-decoration: none;
+   color: #d4581a;
+}
+.btn-css:hover{
+  box-shadow: 1px 1px  5px 3px rgb(214, 214, 214);
+
+}
